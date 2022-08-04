@@ -1,0 +1,13 @@
+Work Space: When we create a new file or modified files would be saved by default here.
+Staging/ Index area: It has the config details like modifications, commit, etc
+Local Repo: Files that are ready to be pushed to the central repo would be saved here. 
+
+To see the files that are available in Work Space we use the command git status
+Sending files from workspace to staging area git add file name. 
+Sending them to the Local Repo we use git commit -m “label msg” file
+Label msg: mentioning the trouble report numbers, info, purpose, modifications etc., 
+To check the files in Local repo, we use git log.
+
+To see the files in the Local repo, we use git show cid(commit ID) 
+To get the file back from Staging area, we need to use git reset HEAD file name.
+To get the file back from Local Repo, we need to use git reset - - soft cid (commit ID).
